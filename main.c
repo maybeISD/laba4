@@ -12,5 +12,6 @@ int main()
 		printf("Решений нет!");
 		return 1;
 	}
+	printf("x1=%f x2=%f", (-b + sqrt(d))/ 2*a, (-b - sqrt(d))/ 2*a);
 	return 0;
 }
